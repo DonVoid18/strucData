@@ -1,0 +1,12 @@
+import { ListaDoble } from "./ListaDoble.js";
+let lista = new ListaDoble();
+lista.addNodo(2);
+lista.addNodo(true);
+lista.addNodo({ name: "patrick " });
+lista.addNodo("reoijo");
+console.log("Inicio - Fin");
+lista.inicioFin();
+console.log("Fin - Inicio");
+lista.finInicio();
+console.log("Buscar nodo");
+lista.buscarNodo("reoijasjiojdaojsoidjoajsdijo");
